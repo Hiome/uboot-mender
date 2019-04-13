@@ -105,9 +105,9 @@
 /* Environment */
 #define CONFIG_ENV_VARS_UBOOT_RUNTIME_CONFIG
 #define ENV_DEVICE_SETTINGS \
-	"stdin=serial\0" \
-	"stdout=serial\0" \
-	"stderr=serial\0"
+	"stdin=usbkbd\0" \
+	"stdout=vidconsole\0" \
+	"stderr=vidconsole\0"
 
 /*
  * Memory layout for where various images get loaded by boot scripts:
